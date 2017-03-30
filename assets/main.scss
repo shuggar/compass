@@ -1,12 +1,12 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$text-color: #1d1d1d;
+$anchor-text-color: #45ff54;
+$background-color: #fffeff;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Open Sans', serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -36,6 +36,10 @@ a:hover {
 
 
 /*** main content list ***/
+.content h1 {
+	line-height: 1em;
+}
+
 .main-list-item {
 	font-weight: bold;
 	font-size: 1.2em;
@@ -60,14 +64,17 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
-	display: inline-block;
-	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
+	width: 100%;
+	//display: inline-block;
+	//background-size: cover;
+	//border-radius: 50%;
+	//-moz-border-radius: 50%;
+	//border: 2px solid $background-color;
+	//box-shadow: 0 0 0 3px $text-color;
+}
+
+.logo img {
+  	width: 70%;
 }
 
 /*** author ***/
